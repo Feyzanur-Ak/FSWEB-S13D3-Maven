@@ -34,7 +34,7 @@ public class Person {
         return  age;
     }
 
-    public boolean getTeen(int age){
+    public boolean getTeen(){
         return age >= 13 && age <= 19;
     }
 }
