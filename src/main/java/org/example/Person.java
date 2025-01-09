@@ -21,4 +21,20 @@ public class Person {
         this.salary=salary;
         this.city=city;
     }
+
+    public String getFirstName(){
+         return  firstName;
+    }
+
+    public String getLastName(){
+        return  lastName;
+    }
+
+    public int getAge(){
+        return  age;
+    }
+
+    public boolean getTeen(int age){
+        return age >= 13 && age <= 19;
+    }
 }
